@@ -1,12 +1,18 @@
 # shinyonaika-test
 
-#for whisper and cohere library installation
+Gamifying Cognitive Behavioural Therapy using neural networks and game technology
+
+The AI model used are Whisper for converting audio to text and Cohere:classify for understanding the user intend.
+
+#Installation of whisper and cohere library are:
+
 !pip install git+https://github.com/openai/whisper.git 
 !sudo apt update && sudo apt install ffmpeg
 !pip install cohere
 
-#used Pyaudio for recording live audio
-#pyaudio installation
+**#used Pyaudio for recording live audio
+**#pyaudio installation
+
 !pip install pyaudio
 
 After that include all the package that are need and record the live voice of the user as the input usig Pyaudio.
